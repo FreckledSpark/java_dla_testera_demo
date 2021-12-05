@@ -9,4 +9,15 @@ public class User {
     int age; //0
     boolean isAdult; //false
 
+    //metody
+    // co bedzie dany obiekt robic
+    //zwracany typ + nazwa metody
+
+    void getFullName() {
+        System.out.println(firstName + " " + lastName);
+    }
+
+    void getAllData() {
+        System.out.println(firstName + " " + lastName + " " + email + " " + age + " " + isAdult);
+    }
 }

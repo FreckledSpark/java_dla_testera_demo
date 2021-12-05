@@ -12,9 +12,12 @@ public class UserMainApp {
         bartek.email = "tes@test.pl";
         bartek.isAdult = true;
         bartek.age = 28;
-        System.out.println(bartek.firstName);
-        System.out.println(bartek.email);
-        System.out.println(bartek.isAdult);
+        bartek.getFullName();
+        bartek.getAllData();
+
+        //System.out.println(bartek.firstName + " " + bartek.lastName);
+        //System.out.println(bartek.email + " " + bartek.isAdult + " " + bartek.age);
+
 
         User tomek = new User();
         tomek.firstName = "Tomek";
@@ -22,7 +25,9 @@ public class UserMainApp {
         tomek.email = "tom@test.pl";
         tomek.isAdult = false;
         tomek.age = 8;
-        System.out.println(tomek.email);
-        System.out.println(tomek.isAdult);
+        tomek.getFullName();
+        tomek.getAllData();
+        //System.out.println(tomek.firstName + " " + tomek.lastName);
+        //System.out.println(tomek.email + " " + tomek.isAdult + " " + tomek.age);
     }
 }
