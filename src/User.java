@@ -20,4 +20,24 @@ public class User {
     void getAllData() {
         System.out.println(firstName + " " + lastName + " " + email + " " + age + " " + isAdult);
     }
+
+    void getLastNameAdnAge() {
+        System.out.println(lastName + " - " + age);
+    }
+
+    void getPersonalizeEmail() {
+        System.out.println(firstName + "." + lastName + age + "@gmail.com");
+    }
+
+    int getUserAge() {
+        return age;
+    }
+
+    boolean isUserAdult() {
+        if(age >= 18){
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
