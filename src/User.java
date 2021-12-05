@@ -40,4 +40,20 @@ public class User {
             return false;
         }
     }
+
+    void greeting(String name) {
+        System.out.println("Hi " + name + ". Nice to see you!");
+    }
+
+    void sum(int a, int b) {
+        System.out.println(a + b);
+    }
+
+    void howOldAreYou(String name, int userAge) {
+        System.out.println("Hi " + name + ". You are " + userAge + " years old!");
+    }
+
+    int youAgePlus10(int userAge) {
+        return userAge + 10;
+    }
 }

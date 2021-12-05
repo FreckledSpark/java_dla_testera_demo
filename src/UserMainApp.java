@@ -44,5 +44,14 @@ public class UserMainApp {
         System.out.println("czy tomek jest dorosly: " + userAdult);
         //System.out.println(tomek.firstName + " " + tomek.lastName);
         //System.out.println(tomek.email + " " + tomek.isAdult + " " + tomek.age);
+
+        tomek.greeting("Tomek");
+        tomek.sum(6, 5);
+        tomek.howOldAreYou("tomek", 8);
+
+        int tomekAgePlus10 = tomek.youAgePlus10(8);
+        System.out.println(tomekAgePlus10);
+
+        System.out.println(tomek.youAgePlus10(tomek.age));
     }
 }
